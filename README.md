@@ -1,27 +1,37 @@
-# telegram_bot_with_python
-Qiitobot
 
-Qiitobot is a simple Telegram bot designed to respond to messages with predefined responses based on keywords. It provides greetings, positive responses, negative responses, and even a special response for Python enthusiasts.
+#Introduction
+
+This Telegram bot, named Qiito_bot, provides movie suggestions based on different genres. Users can interact with the bot by specifying a genre, and the bot will respond with a random movie from that genre.
 Features
 
-    Greetings: Responds with a random greeting when users say "hello", "hi", or "hey".
-    Positive Responses: Provides positive responses when users express positivity in their messages.
-    Negative Responses: Offers comforting words when users express negativity in their messages.
-    Python Enthusiast: Encourages Python enthusiasts with a special message when they mention their love for Python.
-    Custom Commands: Supports a custom command for added flexibility.
-    Information Command: Provides information about the bot with the '/info' command.
-    Help Command: Offers help and guidance with the '/help' command.
+    Movie Suggestions: Users can ask the bot to suggest a movie by specifying a genre.
+    Genre Support: The bot supports various genres including comedy, action, drama, romance, sci-fi, and horror.
+    User Guidance: Upon starting a conversation, the bot provides guidance on how to use the /suggest_movie command.
 
 Usage
 
-    Start a conversation with Qiitobot by sending the '/start' command.
-    Use the '/help' command to get a list of available commands and their descriptions.
-    Engage with Qiitobot by sending messages containing greetings, positive expressions, negative expressions, or mentions of Python.
-    Qiitobot will respond with appropriate messages based on the content of your message.
-    Try the '/custom' command for a surprise response!
-    Use the '/info' command to learn more about Qiitobot.
+To interact with the bot, you need to follow these steps:
 
-Requirements
+    Start a conversation with the bot by typing /start.
+    Follow the instructions provided by the bot to use the /suggest_movie command.
+    Type /suggest_movie <genre> to get a movie suggestion for a specific genre. For example, /suggest_movie comedy will suggest a comedy movie.
 
-    Python 3.x
-    python-telegram-bot library
+Command Reference
+
+    /start: Start a conversation with the bot and receive instructions on how to use it.
+    /suggest_movie <genre>: Get a movie suggestion for the specified genre.
+
+Installation and Setup
+
+    Clone this repository.
+    Install the required dependencies using pip install -r requirements.txt.
+    Replace YOUR_TELEGRAM_BOT_TOKEN in the code with your actual Telegram bot token.
+    Run the bot using python your_bot_script.py.
+
+Dependencies
+
+    python-telegram-bot: Python library for interacting with the Telegram Bot API.
+
+Author
+
+[Qiitoboy]
